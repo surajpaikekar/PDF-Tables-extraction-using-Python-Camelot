@@ -1,4 +1,19 @@
-## Steps:
+# Extracting Tables from PDF and Storing in CSV Using Python-Camelot Library
+
+## Introduction
+
+In this guide, we will explore how to extract tables from PDF documents and subsequently save these tables into CSV format using the python-camelot library. Camelot is a powerful Python library designed for extracting tabular data from PDFs, making it an invaluable tool for data extraction tasks. By following the steps outlined in this tutorial, you'll be able to automate the process of converting PDF tables into structured CSV data, facilitating easier analysis and manipulation of the extracted information.
+
+## Prerequisites
+
+Before proceeding, ensure you have the following prerequisites installed:
+
+- Python 3.x
+- `camelot-py` library
+- Compatible version of `pypdf2` (e.g., 1.26.0)
+- `Ghostscript` installed and available on your system PATH
+
+## Steps
 
 1. **Install the camelot-py library**
 2. **Install the pydf2==1.26.0**
@@ -18,7 +33,6 @@
 - Open a new command prompt or PowerShell window.
 - Type `gswin64c.exe -version` (or `gswin32c.exe` for 32-bit systems) and press Enter.
 - Verify that Ghostscript is installed and available.
-
 
 #### Documentation Links: 
 - [Camelot](https://camelot-py.readthedocs.io/en/master/user/quickstart.html#read-the-pdf)
